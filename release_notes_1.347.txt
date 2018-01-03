@@ -1,0 +1,101 @@
+Release notes for IMAP-Tools version 1.347. 
+Changes since 2015/10/22:
+
+The release notes for earlier versions can be found at http://www.athensfbc.com/release_notes
+
+IMAPtoMbox.pl 1.17 2015/12/01
+    Add CRAM-MD5 notes to usage() 
+
+IMAPtoMbox.pl 1.14 2015/11/30
+    Added support for CRAM-MD5 logins 
+
+MboxtoIMAP.pl 1.22 2015/12/04
+    Added support for CRAM-MD5 logins 
+
+delIMAPdups.pl 1.31 2015/12/05
+    Added support for CRAM-MD5 logins 
+
+dumptoIMAP.pl 1.19 2015/12/04
+    Added support for CRAM-MD5 logins 
+
+imapCapability.pl 1.10 2015/12/05
+    Added support for CRAM-MD5 logins 
+
+imapPing.pl 1.5 2015/12/05
+    Added support for CRAM-MD5 logins 
+
+imap_audit.pl 1.22 2015/12/10
+    Added support for CRAM-MD5 logins 
+
+imap_search.pl 1.5 2015/12/10
+    Added support for CRAM-MD5 logins 
+
+imap_to_maildir.pl 1.7 2015/12/05
+    Added support for CRAM-MD5 logins 
+
+imapcopy.cgi 1.14 2016/02/08
+    Bring list_imap_folders into the main code instead of calling it as an external program 
+
+imapcopy.cgi 1.11 2016/01/21
+    Added support for list_imap_folders in browser mode 
+
+imapcopy.cgi 1.10 2016/01/08
+    If destUser or destPwd equals '*' then use the source values 
+
+imapcopy.pl 1.173 2016/01/08
+    If destUser and destPwd are '*' then set them equal to sourceUser and sourcePwd. Added support for notifying an admin when a migration completes in browser mode 
+
+imapcopy.pl 1.171 2015/12/24
+    Add comments in usasge() about | as mbx separator 
+
+imapcopy.pl 1.170 2015/12/24
+    Use \Q with the mbx_delimiter fix for embedded commas in list of mailboxes 
+
+imapcopy.pl 1.169 2015/12/24
+    Use an alternative mailbox list delimiter, '|' as well as ',' with -m list 
+
+imapcopy.pl 1.168 2015/12/18
+    Added skip_deleted code to getDatedMsgList(). 
+
+imapcopy.pl 1.167 2015/12/17
+    Added -P argument for skipping source msgs that are marked for Delete. 
+
+imapcopy.pl 1.166 2015/12/15
+    Added -v argument for marking messages copied to the destination as SEEN 
+
+imapdump.pl 1.54 2015/12/04
+    Added support for CRAM-MD5 logins 
+
+imapfilter.pl 1.49 2015/12/01
+    Added support for CRAM-MD5 logins 
+
+list_account_sizes.pl 1.13 2015/12/10
+    Added support for CRAM-MD5 logins 
+
+maildir_to_imap.pl 1.11 2015/12/04
+    Added support for CRAM-MD5 
+
+migrateIMAP.pl 1.75 2016/01/29
+    Remove the space between SEARCH expressions. 
+
+migrateIMAP.pl 1.73 2015/12/01
+    Added support for CRAM-MD5 logins 
+
+migrateIMAP.pl 1.72 2015/11/02
+    Added -Y argument for removing messages from the source after copying them to the destination.  In update mode this means messages already on the destination will also be removed from the source. 
+
+pop3toimap.pl 1.11 2015/12/04
+    Added support for CRAM-MD5 logins. 
+
+purgeMbx.pl 1.9 2015/12/24
+    Quote the username and password in LOGIN command. 
+
+purgeMbx.pl 1.8 2015/12/06
+    Added support for CRAM-MD5 
+
+thunderbird_to_imap.pl 1.23 2015/12/05
+    Added support for CRAM-MD5 logins 
+
+trash.pl 1.6 2015/12/06
+    Added support for CRAM-MD5 logins 
+

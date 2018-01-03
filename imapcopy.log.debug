@@ -1,0 +1,535 @@
+02-04-2016.13:45:48 /usr/local/apache//cgi-bin/imapcopy.cgi starting
+<br><br>02-04-2016.13:45:49 Connected to localhost on port 1430
+02-04-2016.13:45:49 Authenticating to localhost:1430 as bobcat
+02-04-2016.13:45:49 Connected to localhost on port 1430
+02-04-2016.13:45:49 Authenticating to localhost:1430 as tomcat
+02-04-2016.13:45:49 calling list_folders
+02-04-2016.13:45:49 This is list_folders.
+02-04-2016.13:45:49 LISTFOLDERS config param is set to >yes<
+02-04-2016.13:45:49 OK to list the folders
+02-04-2016.13:45:49 Listing the files in the local directory
+02-04-2016.13:45:49    total 5274
+02-04-2016.13:45:49    -rw-r--r--   1 rick     apache         0 Feb  4 13:44 1
+02-04-2016.13:45:49    -rw-r--r--   1 root     root         459 Dec  1  2013 1455
+02-04-2016.13:45:49    drwxr-xr-x   4 rick     other        512 Nov 30  2006 CWM
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other        929 Apr 30  2004 Content_Filter.2004-04-28
+02-04-2016.13:45:49    drwxr-xr-x   2 rick     other        512 Jun  8  2004 FILTERED_MESSAGES
+02-04-2016.13:45:49    -rw-r--r--   1 rick     apache       367 Feb  7  2014 IMAPCOPY.log
+02-04-2016.13:45:49    -rw-------   1 rick     apache         0 Jun  7  2012 IMAP_Tools_issues.db.dir
+02-04-2016.13:45:49    -rw-------   1 rick     apache      1024 Jun 21  2012 IMAP_Tools_issues.db.pag
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      58616 Nov  5  2004 IMAPtoISS.cp5
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root        8603 Dec  7  2013 OpenwaveReports.cgi
+02-04-2016.13:45:49    -rw-r--r--   1 root     root        5588 Nov 29  2014 Part1.html
+02-04-2016.13:45:49    drwxr-xr-x   2 rick     other        512 Nov 26  2007 SL
+02-04-2016.13:45:49    drwxr-xr-x   3 rick     other        512 Oct 23  2005 UWH
+02-04-2016.13:45:49    -rwxr-x---   1 rick     root       20178 Feb  7  2010 abuse_archiver.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root       16227 Feb  8  2010 abuse_retriever.cgi
+02-04-2016.13:45:49    -rw-r--r--   1 root     root        2322 Dec  8  2013 admin.html
+02-04-2016.13:45:49    -rw-r--r--   1 root     root       13114 Dec  8  2013 administrator.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       8383 Feb 15  2005 adminsearch.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      11394 Feb  6  2005 adminsearchresults.pl
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other      25088 Feb  3  2010 archiver.tar
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      13831 Jun 15  2004 b
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other        426 Dec  9  2004 bmsearch.cf
+02-04-2016.13:45:49    -rwxrwxrwx   1 rick     other      21238 Mar 16  2005 bmsearch.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      20804 Jan 15  2005 bmsearch.cgi.old
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other          0 Dec  9  2004 bmsearch.testing
+02-04-2016.13:45:49    lrwxrwxrwx   1 root     other         28 Jun 28  2010 bswebalarm -> /usr/local/lib/bs/bswebalarm
+02-04-2016.13:45:49    -r-xr-xr-x   1 rick     30000      14243 Mar 14  2004 cgi-lib.pl
+02-04-2016.13:45:49    drwxr-xr-x   2 rick     other        512 May  8  2002 common
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other       4973 Feb 14  2005 cook
+02-04-2016.13:45:49    -rw-r--r--   1 root     root       20072 Apr 20  2014 copy_email.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       82195 Jan  3  2014 copy_mail_parallel.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root        3690 Dec  9  2009 count_online_users.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       3378 Mar 23  2003 createFtuSqlDb.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root        1083 Feb  5  2014 daemon.pl
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other        137 Nov 16  2004 data
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root         862 Aug  9  2009 demand.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other        288 Nov 16  2004 download.pl
+02-04-2016.13:45:49    lrwxrwxrwx   1 root     root          49 Mar 24  2015 email_archive.cf -> /mhub1/rick/imap-tools/archiving/email_archive.cf
+02-04-2016.13:45:49    -rw-r--r--   1 root     root        1452 Mar 23  2015 email_archive.cf.save
+02-04-2016.13:45:49    lrwxrwxrwx   1 root     root          40 Dec 30  2014 email_archiver.cf -> /mhub1/rick/imap-tools/email_archiver.cf
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       42525 Jul 20  2015 email_restore.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       31654 Jan  2  2015 email_restore.cgi.save
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       31642 Jan  2  2015 email_restore.cgi.save.2
+02-04-2016.13:45:49    -rw-r--r--   1 rick     apache    212072 Jul 22  2015 email_restore.log
+02-04-2016.13:45:49    -rw-r--r--   1 rick     100        18328 Mar 12  2004 emcweblib.pl
+02-04-2016.13:45:49    -rw-r--r--   1 rick     100        40960 Mar 12  2004 files.tar
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root        3370 Feb  3  2010 find_sender_msgs.cgi
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other        129 Dec  5  2004 fmstTables.dat
+02-04-2016.13:45:49    -rw-r-----   1 rick     other       8062 Feb  3  2010 fmstsearch.pl
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other        447 Dec  5  2004 ftu.cf
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other        386 May  7  2003 ftu.cf.lookInVar
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      59375 Apr  2  2003 ftu.pl.1
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      59375 Apr 11  2003 ftu.pl.save
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other       1456 Mar 26  2003 ftuSqlTables.dat
+02-04-2016.13:45:49    drwxr-xr-x   2 rick     other        512 May  8  2002 home_page
+02-04-2016.13:45:49    -rw-r--r--   1 rick     apache       947 Nov 10  2014 imap_admin.log
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       68396 Dec  7  2013 imap_admin.pl
+02-04-2016.13:45:49    -rw-r--r--   1 root     root         464 Nov 10  2014 imap_admin_tools.cf
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       64167 Nov 10  2014 imap_admin_tools.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       11329 Jun  7  2012 imap_issues
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       26478 Jan 22  2014 imap_loader.cgi
+02-04-2016.13:45:49    -rw-rw-rw-   1 root     root           0 Jan 22  2014 imap_loader.log
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       24607 Nov 30  2014 imap_restore.cgi.201411301331
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root        5555 Dec 24  2014 imap_restore.cgi.new
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       26721 Dec 24  2014 imap_restore.cgi.save
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       44602 Dec 11  2013 imap_search.pl
+02-04-2016.13:45:49    -rw-r--r--   1 root     root         151 Jan 21 13:49 imapcopy.cf
+02-04-2016.13:45:49    -rw-rw-rw-   1 root     root         186 Dec 16  2013 imapcopy.cf.save
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root       17772 Feb  4 13:45 imapcopy.cgi
+02-04-2016.13:45:49    -rw-rw-rw-   1 root     root        2453 Feb  7  2014 imapcopy.cgi.log
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       15436 Aug 18  2014 imapcopy.cgi.save
+02-04-2016.13:45:49    -rw-r--r--   1 rick     apache       563 Feb  4 13:45 imapcopy.log
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root       87384 Jan 26 14:47 imapcopy.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       67506 Nov 30  2013 imapcopy.pl.save
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       70949 Dec  7  2013 imapcopy.pl.web
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       74528 Feb  7  2014 imapcopy.save
+02-04-2016.13:45:49    -rw-r--r--   1 root     root       53659 Nov 29  2014 imapcopy_compress-1.pl
+02-04-2016.13:45:49    -rw-r--r--   1 rick     apache     53659 Nov 30  2014 imapcopy_compress-2.pl
+02-04-2016.13:45:49    -rw-r--r--   1 root     root       53659 Nov 29  2014 imapcopy_compress.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       71550 Feb  4  2014 imapcopy_mgr.pl
+02-04-2016.13:45:49    -rw-rw-rw-   1 666      root          62 Jan 26 14:33 imapcopy_notify.admin
+02-04-2016.13:45:49    -rw-r--r--   1 root     root          49 Jan 25 16:09 imapcopy_notify.admin.save
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       8245 Dec 30  2008 inactiveusers.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      11702 Feb 15  2005 lib.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      12355 Feb 14  2005 lib.pl.cookie.works
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      13859 Feb 14  2005 lib.pl.old
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       27664 Jan 21 12:49 list.pl
+02-04-2016.13:45:49    -rw-r--r--   1 rick     apache       128 Dec  8  2013 list_account_sizes.report
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       29629 May  6  2014 list_folders.cgi
+02-04-2016.13:45:49    -rw-r--r--   1 rick     apache         0 Jan 25 09:01 list_imap_folders.log
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       27664 Jan 21 13:42 list_imap_folders.pl
+02-04-2016.13:45:49    -rw-r--r--   1 root     root        9833 Nov 29  2014 log5.txt
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       4739 Feb 15  2005 login.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       4623 Feb 14  2005 login.pl.cookie.works
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       4715 Feb 14  2005 login.pl.old
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       5349 Feb 14  2005 login.pl.old.2
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       8175 May 21  2003 lookup.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       7867 May 21  2003 lookup.pl.save
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other         59 May 21  2003 lookupX500.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       9947 May 21  2003 lookupX500.pl.save
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      10623 May 21  2003 lookupX500.pl.save.2
+02-04-2016.13:45:49    -rw-r--r--   1 root     root        9912 Nov 29  2013 lookup_user.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      69191 Aug  4  2003 m.cp5
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root         240 Jan 15  2015 match.pl
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other       1446 Nov 27  2007 messages.dat
+02-04-2016.13:45:49    -rw-r--r--   1 root     root         472 Dec  1  2013 msg.tmp
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      57878 Nov 27  2007 msgSearch.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       7881 Feb  5  2005 mysearch.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root       13517 Jan 13  2010 openwave_daily_graphs.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       6862 Dec 11  2007 openwave_log.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root       54754 Jan  7  2010 openwave_trends.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root         391 Dec  1  2014 page.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root         472 Nov 30  2014 parse.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     30000       1644 Mar 12  2004 pauth.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     30000      14325 Mar 12  2004 pcommon.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     30000       6948 Mar 12  2004 pconfig.pl
+02-04-2016.13:45:49    drwxr-xr-x   3 rick     other        512 Oct 15  2003 portal
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other        126 Apr  3  2001 printenv
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       16570 Dec  9  2013 purgeMbx.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root         415 Dec  1  2013 push.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      11810 Dec 10  2003 qcomments.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      12670 Nov 10  2004 r.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       9840 May  8  2004 reportSearch.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      14177 Nov 20  2004 reportSearch.internal
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      11041 Aug 29  2004 reportSearch.internal.new
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       9341 Aug 29  2004 reportSearch.internal.old
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      12076 Nov 20  2004 reportSearch.internal.save
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root        7519 Dec  9  2009 reports.cgi
+02-04-2016.13:45:49    drwxr-xr-x   2 rick     other      19968 Jan 26 14:25 save
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root        1345 Dec  9  2009 search_user_login.cgi
+02-04-2016.13:45:49    drwxr-xr-x   3 rick     other        512 May  8  2002 simple
+02-04-2016.13:45:49    drwxr-xr-x   3 rick     other        512 Apr 23  2007 soap
+02-04-2016.13:45:49    drwxr-xr-x   3 root     root         512 Jan 15  2012 spam
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       3057 Feb 15  2003 sql
+02-04-2016.13:45:49    -rw-r--r--   1 root     root       27519 Nov 29  2014 stickfish-1.navrh_rastr.A24.le04.gif
+02-04-2016.13:45:49    -rw-r--r--   1 rick     apache     27519 Nov 30  2014 stickfish-2.navrh_rastr.A24.le04.gif
+02-04-2016.13:45:49    -rw-r--r--   1 root     root       27519 Nov 29  2014 stickfish.navrh_rastr.A24.le04.gif
+02-04-2016.13:45:49    drwxr-xr-x   4 rick     other        512 Nov  4  2007 stream
+02-04-2016.13:45:49    -rw-r--r--   1 root     root         313 Mar 28  2015 t
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       35657 Jan 15  2015 t.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other        107 Apr 24  2014 t.pl
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other        558 Dec 10  2004 t.tmp
+02-04-2016.13:45:49    drwxr-xr-x   2 root     root         512 Nov 30  2014 temp
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other        100 Jun 21  2004 test
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other        757 Apr  3  2001 test-cgi
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other         99 Jun 21  2004 test.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       6282 Aug 18  2003 tracemsg.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      10704 Aug  8  2003 tracemsg.pl.save
+02-04-2016.13:45:49    -rwxr-xr-x   1 root     root       23084 Nov 10  2014 trash.pl
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other      11637 Jul 31  2009 update_count_db.pl
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       4641 Feb 27  2013 user_count.cgi
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       4758 Aug  2  2009 user_count.cgi.08020205
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       3817 Aug  2  2009 user_count.cgi.08020210
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other      11467 Jul 31  2009 user_counts.tab
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     root        4224 Dec  9  2009 user_mailbox_info.cgi
+02-04-2016.13:45:49    drwxr-xr-x   2 rick     other        512 Apr  9  2007 ussc
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      10071 Mar 18  2004 vansub
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other       9094 Oct 18  2005 viewalarms.cgi
+02-04-2016.13:45:49    -rw-rw-rw-   1 rick     other      24940 Jan 22  2004 websitedns.dbm
+02-04-2016.13:45:49    -rw-r--r--   1 rick     other      25306 Jan 21  2004 websitedns.dbm.save
+02-04-2016.13:45:49    -rw-rw-rw-   1 rick     other      24704 Jan 21  2004 websitedns.empty
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other      17104 Jan 22  2004 websitedns.pl
+02-04-2016.13:45:49    -rw-r--r--   1 root     root         382 Jan 22  2014 wget.tmp
+02-04-2016.13:45:49    drwxr-xr-x   3 rick     other       1024 May  9  2002 white_pages
+02-04-2016.13:45:49    -rwxr-xr-x   1 rick     other        680 Jul  8  2013 winpop.pl
+02-04-2016.13:45:49    drwxr-xr-x   3 rick     other        512 May  8  2002 yellow_pages
+02-04-2016.13:45:49 list_imap_folders was found
+02-04-2016.13:45:49 Executing the list command
+02-04-2016.13:45:53 screen line ======================================
+02-04-2016.13:45:53 screen line bobcat
+02-04-2016.13:45:53 screen line Mailbox delimiter = /
+02-04-2016.13:45:53 screen line Mailbox prefix    = NONE
+02-04-2016.13:45:53 screen line 
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line &AOo-lantro   (31 msgs, 2.67 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line äöü   (2 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line 0   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line 00_toDo.mbx   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line 00_toDo_mbx   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line 11111   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line 1430   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line 2006-07 Programs-Workshops   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line 2006-07 Programs-Workshops/CompApplAlgebraicTopology   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line 2010 Sent   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line 2010 Sent Mbx   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line :saved   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line A   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line A-B-C   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line A/B   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line A/B/C   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line AAA   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line AAAA   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line AAAA/BBBB   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line ADMIN   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line ARCHIVE_TEST   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Admin   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Archive   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Archives   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Archives.2010   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Archives/2010   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Archives/2011   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Archives/2012   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line B   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line BANKING   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line BOGUS   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Big   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Big-Box   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Big.Box   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Big/Box   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Books   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Books.2009   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Chats   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Comma,Mailbox   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Correo electrónico no deseado   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line D   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line DOMAIN2   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line DOMAIN2/AAA   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line DUMP   (2 msgs, 0.01 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Deleted Messages   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Drafts   (12 msgs, 0.09 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line EMPTY   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line EMPTY/folder   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Elementos eliminados   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Elementos enviados   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Enter mailbox name   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line FESKE   (1 msgs, 1.02 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line FESKE_TEST   (1 msgs, 0.01 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line FOLDER   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line FOLDER1   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line FOLDER1/FOLDER2   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line FOLDER1/FOLDER2/FOLDER3   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Firmy   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Freelancer   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Gelöschte Elemente   (1 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Gmail   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Gmail/Drafts   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Gmail/Important   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Gmail/Sent Mail   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Gmail/Spam   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Gmail/Starred   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Gmail/Trash   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line HASH   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line HEADER_NEW   (1 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line I   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line IMAP   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line IMAP Tools Orders   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line IMAP-Tools List   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line IMAP/Karl   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line IMAP/Ken-Lombardo   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line INBOX   (266 msgs, 1.49 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line INBOX|Drafts   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line N   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line O   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Sent   (68 msgs, 1.11 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Spam   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST1   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST10   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST11   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST12   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST13   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST14   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST15   (15 msgs, 1.89 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST16   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST17   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST18   (15 msgs, 1.89 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST19   (26 msgs, 3.27 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST2   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST20   (3 msgs, 0.11 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST3   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST4   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST5   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST6   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST7   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST8   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line TEST9   (152 msgs, 46.94 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Trash   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line X   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line XXXR&AOk-p&AOk-toire   (5 msgs, 0.08 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line a   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line f   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line mpt-status   (5 msgs, 0.02 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line r   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line s   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line search   (69 msgs, 0.32 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line t   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line |   (0 msgs, 0.00 MB)
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line 
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Total bytes   0.06 GB
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line Total msgs    675
+02-04-2016.13:45:53 show_sizes = 1
+02-04-2016.13:45:53 Getting the sizes
+02-04-2016.13:45:53 screen line ======================================
+02-04-2016.13:45:53 print the totals
+02-04-2016.13:45:53 done
+02-04-2016.13:45:53 launch the imapcopy daemon process

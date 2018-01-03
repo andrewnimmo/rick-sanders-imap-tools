@@ -1,0 +1,74 @@
+Release notes for IMAP-Tools version 1.335. 
+Changes since 2015/05/08:
+
+The release notes for earlier versions can be found at http://www.athensfbc.com/release_notes
+
+imap_to_maildir.pl 1.6 2015/07/07
+    Added -G argument to strip [Gmail] from folder names.  Also skip [Gmail]All Mail folder since its messages are duplicates of what's in the IMAP folders. 
+
+imapcopy.pl 1.162 2015/08/03
+    Update mode did not work when copying messages in a date range 
+
+imapcopy.pl 1.161 2015/07/30
+    Added -N argument to permit copying of [Gmail]/All Mail folder 
+
+imapcopy.pl 1.160 2015/07/03
+    Use eval to protect against bad dates in compare_dates() 
+
+imapcopy.pl 1.159 2015/05/28
+    More protection against destination sending unexpected APPEND response 
+
+imapcopy.pl 1.158 2015/05/27
+    Put INBOX under root mailbox when one is specified as well as all other mailboxes 
+
+imapcopy.pl 1.157 2015/05/22
+    Enhance reconnect() mode. 
+
+imapcopy.pl 1.156 2015/05/19
+    Workaround to rename mailboxes with INBOX. prefix that shouldn't be there on the destination. 
+
+imapdump.pl 1.41 2015/08/02
+    Added -Z IMAP_SEARCH_EXPRESSION argument 
+
+imapdump.pl 1.40 2015/08/01
+    On Windows adjust the line termination characters accordingly 
+
+imapdump.pl 1.37 2015/07/30
+    Added support for using header field as the dumped filename and setting the date on the dumped file to the header date 
+
+imapsync.pl 1.75 2015/07/23
+    Fix problem with supplied mailbox list and destination mbx creation 
+
+imapsync.pl 1.74 2015/07/23
+    Added support for CRAM-MD5 logins 
+
+imapsync.pl 1.73 2015/07/22
+    Put trimming leading and trailing spaces under control of -R argument which previously only compressed multiple embedded spaces to a single space. 
+
+imapsync.pl 1.72 2015/07/06
+    Fixed exchange_workaround(). 
+
+imapsync.pl 1.70 2015/07/04
+    Added workaround for Exchange's 10-error limitation. 
+
+imapsync.pl 1.68 2015/07/02
+    Standard IMAP flags were not getting set when a message was first added to the destination. 
+
+migrateIMAP.pl 1.65 2015/06/24
+    Added more timeout handling code. 
+
+migrateIMAP.pl 1.64 2015/06/23
+    Put an alarm() timer around the APPEND command to catch timeouts. 
+
+migrateIMAP.pl 1.63 2015/06/15
+    Added option to wrap long lines at 1,000 characters 
+
+migrateIMAP.pl 1.61 2015/06/08
+    Add support for Kerio master authentication 
+
+migrateIMAP.pl 1.60 2015/05/20
+    Handle the way that Domino responds to LIST command for nested mailboxes 
+
+purgeMbx.pl 1.7 2015/06/05
+    Add option to purge all mailboxes with -m '*' 
+
